@@ -43,9 +43,9 @@ clangd binutils
 
 \# Clonar repositório
 
-git clone https://github.com/vim/vim.git ~/vim-git
+git clone https://github.com/vim/vim.git ~/vim
 
-cd \~/vim-git
+cd ~/vim-git
 
 \# Configurar a build
 
@@ -89,7 +89,16 @@ make
 
 make install
 
-vim \--version \| head -n 20
+
+./configure \
+    --with-features=huge \
+    --enable-multibyte \
+    --enable-python3interp \
+    --with-compiledby="Distrobox Debian Build"
+make -j$(nproc) 
+make install   
+    
+vim --version \| head -n 20
 
 Instalar nodejs npm
 
