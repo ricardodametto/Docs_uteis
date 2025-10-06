@@ -1,3 +1,4 @@
+https://g.co/gemini/share/030982dc17ee
 Dependencias:
 
 sudo apt update && sudo apt upgrade -y
@@ -42,7 +43,7 @@ clangd binutils
 
 \# Clonar repositório
 
-git clone https://github.com/vim/vim.git \~/vim-git
+git clone https://github.com/vim/vim.git ~/vim-git
 
 cd \~/vim-git
 
@@ -92,7 +93,7 @@ vim \--version \| head -n 20
 
 Instalar nodejs npm
 
-curl -fsSL https://deb.nodesource.com/setup_20.x \| sudo bash -
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo bash -
 
 sudo apt install -y nodejs
 
@@ -102,11 +103,11 @@ npm -v
 
 Instalar Rust/cargo(necesário para asm-lsp)
 
-curl --proto '=https\' --tlsv1.2 -sSf https://sh.rustup.rs \| sh
+curl --proto '=https\' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
-source \$HOME/.cargo/env
+source $HOME/.cargo/env
 
-rustc \--version
+rustc --version
 
 cargo --version
 
@@ -124,9 +125,9 @@ git clone \--branch release htttps://github.com/neoclide/coc.nvim.git
 
 Instalar auto-pairs
 
-cd \~/.vim/pack/plugins/start
+cd ~/.vim/pack/plugins/start
 
-git clone <https://github.com/jiangmiao/auto-pairs.git>
+git clone https://github.com/jiangmiao/auto-pairs.git
 
 Instalar asm-lsp
 
