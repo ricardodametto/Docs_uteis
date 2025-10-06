@@ -2,35 +2,39 @@ Dependencias:
 
 sudo apt update && sudo apt upgrade -y
 
-sudo apt install -y \\
+sudo apt install -y \
 
-sudo \\
+sudo \
 
-curl \\
+curl \
 
-wget \\
+wget \
 
-git \\
+git \
 
-build-essential \\
+build-essential \
 
-software-properties-common \\
+software-properties-common \
 
-ca-certificates \\
+ca-certificates \
 
-locales \\
+locales \
 
-unzip \\
+unzip \
 
-python3 \\
+python3 \
 
-python3-pip \\
+python3-pip \
 
-pkg-config \\
+pkg-config \
 
-cmake \\
+cmake \
 
-gnupg2 \\
+gnupg2 \
+
+nasm \
+
+gdb \
 
 libncurses5-dev libncursesw5-dev libgtk2.0-dev libatk1.0-dev
 libcairo2-dev libx11-dev libxpm-dev libxt-dev liblua5.3-dev lua5.3 nasm
@@ -98,7 +102,7 @@ npm -v
 
 Instalar Rust/cargo(necesário para asm-lsp)
 
-curl \--proto \'=https\' \--tlsv1.2 -sSf https://sh.rustup.rs \| sh
+curl --proto '=https\' --tlsv1.2 -sSf https://sh.rustup.rs \| sh
 
 source \$HOME/.cargo/env
 
@@ -114,9 +118,9 @@ mkdir -p \~/.vim/pack/plugins/start
 
 Instalar coc.nvim
 
-cd \~/.vim/pack/coc/start
+cd ~/.vim/pack/coc/start
 
-git clone \--branch release <https://github.com/neoclide/coc.nvim.git>
+git clone \--branch release htttps://github.com/neoclide/coc.nvim.git
 
 Instalar auto-pairs
 
