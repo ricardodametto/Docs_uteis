@@ -49,35 +49,35 @@ cd ~/vim-git
 
 \# Configurar a build
 
-./configure \\
+./configure \
 
-\--with-features=huge \\
+\--with-features=huge \
 
-\--enable-multibyte \\
+\--enable-multibyte \
 
-\--enable-python3interp=yes \\
+\--enable-python3interp=yes \
 
-\--enable-cscope \\
+\--enable-cscope \
 
-\--enable-gui=auto \\
+\--enable-gui=auto \
 
-\--enable-gtk2 \\
+\--enable-gtk2 \
 
-\--enable-gnome-check \\
+\--enable-gnome-check \
 
-\--enable-fontset \\
+\--enable-fontset \
 
-\--enable-largefile \\
+\--enable-largefile \
 
-\--enable-terminal \\
+\--enable-terminal \
 
-\--enable-fail-if-missing \\
+\--enable-fail-if-missing \
 
-\--with-x \\
+\--with-x \
 
-\--enable-rubyinterp=no \\
+\--enable-rubyinterp=no \
 
-\--enable-luainterp=yes \\
+\--enable-luainterp=yes \
 
 \--with-luajit
 
