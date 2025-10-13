@@ -97,6 +97,20 @@ make install
     --with-compiledby="Distrobox Debian Build"
 make -j$(nproc) 
 make install   
+    ou:
+./configure \
+  --with-features=huge \
+  --enable-multibyte \
+  --enable-python3interp=yes \
+  --with-python3-config-dir=$(python3-config --configdir) \
+  --enable-luainterp=yes \
+  --with-luajit \
+  --enable-rubyinterp=yes \
+  --enable-perlinterp=yes \
+  --enable-gui=gtk2 \
+  --enable-cscope \
+  --enable-clipboard \
+  --prefix=/usr/local
     
 vim --version \| head -n 20
 
